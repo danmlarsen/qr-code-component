@@ -21,7 +21,7 @@ body {
   align-items: center;
 }
 
-.article {
+.card {
   min-height: 500px;
   width: 320px;
   padding: 16px;
@@ -30,28 +30,28 @@ body {
   border-radius: 20px;
 }
 
-.article__qr-code-container {
+.card__qr-code-container {
   margin-bottom: 24px;
 }
 
-.article__qr-code-img {
+.card__qr-code-img {
   width: 100%;
   border-radius: 10px;
 }
 
-.article__text-container {
+.card__text-container {
   text-align: center;
   padding: 0 16px;
 }
 
-.article__title {
+.card__title {
   font-size: 22px;
   line-height: 120%;
   color: var(--main-color);
   margin-bottom: 16px;
 }
 
-.article__text {
+.card__text {
   line-height: 140%;
   letter-spacing: 0.2px;
   color: var(--accent-color);
