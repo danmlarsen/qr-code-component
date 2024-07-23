@@ -16,14 +16,13 @@ body {
   background-color: var(--background-color);
   font-size: 15px;
   font-family: "Outfit", sans-serif;
-
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .article {
-  height: 500px;
+  min-height: 500px;
   width: 320px;
   padding: 16px;
   padding-bottom: 40px;
